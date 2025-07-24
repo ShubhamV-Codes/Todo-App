@@ -1,0 +1,107 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+#input {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    cursor:pointer
+}
+#input:hover{
+    border: 1px solid black;
+}
+
+
+#btn1{
+    background-color: #6231ec;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top:1rem;
+}
+/* No CSS needed for Enter key feature; implement in React JS */
+#btn1:hover{
+    border: 1px solid #4CAF50;
+}
+#heading{
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+#heading1{
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#xyz {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 12px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 600px;
+    word-break: break-word;
+    font-weight: bold;
+}
+
+#xyz span {
+    flex: 1;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#xyz span:hover {
+    text-decoration: underline;
+}
+
+#x, #m, #u {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+#x {
+    background-color: #dc3545;
+    color: white;
+}
+#x:hover {
+    background-color: #a71d2a;
+}
+
+#m {
+    background-color: #28a745;
+    color: white;
+}
+#m:hover {
+    background-color: #1c7e32;
+}
+
+#u {
+    background-color: #f9cb40;
+    color: black;
+}
+#u:hover {
+    background-color: #debc56;
+}
