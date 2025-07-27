@@ -2,14 +2,15 @@ import "./App.css"
 
 import Todo from "./Todo"
 function App() {
-  
 
   return (
-    <>
-    
-    <Todo/>
-    </>
-  )
+    <div className="app-wrapper">
+      <main>
+        <Todo />
+      </main>
+
+    </div>
+  );
 }
 
 export default App;
